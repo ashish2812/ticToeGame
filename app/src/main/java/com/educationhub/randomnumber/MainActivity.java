@@ -57,6 +57,10 @@ public class MainActivity extends AppCompatActivity {
                         gameState[winningPosition[1]] == gameState[winningPosition[2]]
                         && gameState[winningPosition[0]] != 2) {
                         gameIsActive =false;
+
+
+                        //someon won the match
+
                     String winner = "Red";
                     if (gameState[winningPosition[0]] == 0) {
                         winner = "Yellow";
