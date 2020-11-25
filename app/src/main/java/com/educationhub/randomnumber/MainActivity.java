@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
                         gameIsActive =false;
 
 
-                        //someon won the match
+                        //someone won the match
 
                     String winner = "Red";
                     if (gameState[winningPosition[0]] == 0) {
